@@ -290,14 +290,13 @@ main .insights .income svg circle {
 
 main .insights .progress .number {
   position: relative;
-  top: 0;
+  top: -70px;
   left: 0;
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
 }
 main .insights small {
   margin-top: 1rem;
@@ -607,7 +606,17 @@ main .recent-orders a {
     position: absolute;
     left: 1rem;
   }
+  .right .top .profile .info {
+    display: none;
+  }
+  .right .top .profile .profile-photo {
+    margin-left: 22rem;
+  }
   .right .top button span {
     font-size: 2rem;
+  }
+  main .insights {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 }
