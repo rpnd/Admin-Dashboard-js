@@ -268,7 +268,7 @@ main .insights svg {
 main .insights svg circle {
   fill: none;
   stroke: var(--color-primary);
-  stroke-width: 14;
+  stroke-width: 10;
   stroke-linecap: round;
   transform: translate(5px, 5px);
   stroke-dasharray: 110;
@@ -298,6 +298,13 @@ main .insights .progress .number {
   justify-content: center;
   align-items: center;
 }
+
+main .insights .progress .number p{
+  font-size: 20px;
+  font-weight: bolder;
+  margin: -5px 5px;
+}
+
 main .insights small {
   margin-top: 1rem;
   display: block;
@@ -463,6 +470,12 @@ main .recent-orders a {
   align-items: center;
   justify-content: center;
 }
+
+.right .sales-analytics .add-product:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .right .sales-analytics .add-product div {
   display: flex;
   align-items: center;
